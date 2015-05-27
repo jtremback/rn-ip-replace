@@ -1,6 +1,6 @@
 {
   "name": "rn-ip-replace",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "replaces ips in files, for when you're using an actual device",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
