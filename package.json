@@ -9,5 +9,8 @@
     "rn-ip-replace": "index.js"
   },
   "author": "jehan.tremback@gmail.com",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "ip": "^0.3.2"
+  }
 }

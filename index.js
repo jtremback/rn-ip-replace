@@ -1,5 +1,5 @@
 var fs = require('fs')
-var ip = require('ip');
+var ip = require('ip')
 
 var myIp = ip.address() // my ip address
 
@@ -20,6 +20,6 @@ function replace (file, replaceWith) {
 }
 
 var config = JSON.parse(fs.readFileSync('./package.json').toString())
-config.ipreplace.files.forEach(function (file) {
+config.rnIpReplace.files.forEach(function (file) {
   replace(file, myIp)
 })
