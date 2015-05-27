@@ -19,7 +19,7 @@ function replace (file, replaceWith) {
   fs.writeFileSync(file, newFile)
 }
 
-var config = JSON.parse(fs.readFileSync('./.ipreplaceconfig').toString())
-config.files.forEach(function (file) {
+var config = JSON.parse(fs.readFileSync('./package.json').toString())
+config.ipreplace.files.forEach(function (file) {
   replace(file, myIp)
 })
