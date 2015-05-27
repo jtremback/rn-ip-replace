@@ -1,0 +1,13 @@
+{
+  "name": "rn-ip-replace",
+  "version": "1.0.0",
+  "description": "replaces ips in files, for when you're using an actual device",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "rn-replace-ip": "index.js"
+  },
+  "author": "jehan.tremback@gmail.com",
+  "license": "MIT"
+}
